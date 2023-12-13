@@ -10,5 +10,4 @@ const departmentModel = mongoose.model<Departments>(
   "departments",
   departmentSchema
 );
-// module.exports = departmentModel;
 export default departmentModel;

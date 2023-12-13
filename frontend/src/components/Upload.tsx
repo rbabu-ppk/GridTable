@@ -42,7 +42,7 @@ const Job: React.FC = () => {
     console.log(formData);
 
     try {
-      await axios.post("http://localhost:3001/job", formDataObject, {
+      await axios.post("http://localhost:3001/upload", formDataObject, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

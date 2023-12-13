@@ -1,12 +1,5 @@
-export type RandomData = {
-  id: number;
-  adminName: string;
-  role: string;
-  email: string;
-  createdAt: string;
-};
-
 export type Employees = {
+  id: number;
   firstName: string;
   lastName: string;
   address: string;
@@ -23,6 +16,7 @@ export type Departments = {
   departmentId: string;
   departmentName: string;
 };
+
 export type Sites = {
   siteId: string;
   siteName: string;
